@@ -1,0 +1,28 @@
+{
+  "plants_water_frequencies": [
+    {"key": "day", "title": "Todos os dias"},
+    {"key": "week", "title": "A cada semana"}
+  ],
+
+  "plants_enviroments" : [
+    {"key": "living_room", "title": "Sala"},
+    {"key": "bedroom", "title": "Quarto"},
+    {"key": "kitchen", "title": "Cozinha"},
+    {"key": "bathroom", "title": "Banheiro"}
+  ],
+
+  "plants": [
+    {
+      "id": 1,
+      "name": "Anigarapa",
+      "about": "É um tropical que tem crescimento rápido e fácil de se cuidar",
+      "water_tips": "Matenha a terra sempre húmida sem encharcar",
+      "photo":"https://drive.google.com/file/d/14ImddiFE04psxxjAe-QfRXhdh8pcVY0Y/view?usp=sharing",
+      "evironments": ["living_room","kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "week"
+     }
+    }
+  ]
+}

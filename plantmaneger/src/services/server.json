@@ -1,0 +1,101 @@
+{
+  "plants_water_frequencies": [
+    {"key": "day", "title": "Todos os dias"},
+    {"key": "week", "title": "A cada semana"}
+  ],
+
+  "plants_enviroments" : [
+    {"key": "living_room", "title": "Sala"},
+    {"key": "bedroom", "title": "Quarto"},
+    {"key": "kitchen", "title": "Cozinha"}
+  ],
+
+  "plants": [
+    {
+      "id": 1,
+      "name": "Anigarapa",
+      "about": "É um tropical que tem crescimento rápido e fácil de se cuidar",
+      "water_tips": "Matenha a terra sempre húmida sem encharcar",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["living_room","kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "week"
+     }
+    },
+
+    {
+      "id": 2,
+      "name": "Babosa",
+      "about": "Planta pra Cabelo",
+      "water_tips": "Regue",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["kitchen"],
+      "frequency": {
+      "times": 7,
+      "repeat_every": "week"
+     }
+    },
+
+    {
+      "id": 3,
+      "name": "Gloriosa",
+      "about": "É uma trepadeira ótima para o cultivo anual, decorando suportes leves, como treliças delicadas, grades e cercas. Seu crescimento vigoroso permite a obtenção de florações sucessivas na mesma estação. No inverno a planta entra em repouso e perde a folhagem. ",
+      "water_tips": "Regue um pouco mais",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "day"
+     }
+    },
+    {
+      "id": 4,
+      "name": "Espada de São Jorge",
+      "about": "Planta com excesso de fibra,fazendo assim ela ser extremamente resistente, antigamente sendo usada ate para o uso de confecção de espadas",
+      "water_tips": "Matenha a terra sempre húmida sem encharcar",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments":  ["kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "day"
+     }
+    },
+    {
+      "id": 5,
+      "name": "Pedro de alcantra",
+      "about": "Planta com nome de Gente, kkk",
+      "water_tips": "Matenha a terra sempre húmida sem encharcar",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "day"
+     }
+    },
+    {
+      "id": 6,
+      "name": "Teste da Silva",
+      "about": "Planta com nome de to ficando sem criatividade, kkk",
+      "water_tips": "Matenha a terra sempre húmida sem encharcar sua planta",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["kitchen"],
+      "frequency": {
+      "times": 2,
+      "repeat_every": "week"
+     }
+    },
+    {
+      "id": 7,
+      "name": "LiSA",
+      "about": "Nem Planta é mais eu queria colocar ela aqui pq é muito linda, tambem pq sim '-'",
+      "water_tips": " Escuta LADY BUG,homura,LiTTLE DEViL PAREDE,LEO-NiNE",
+      "photo":"https://images.unsplash.com/photo-1628813049286-dcdc0f86101c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
+      "evironments": ["kitchen"],
+      "frequency": {
+      "times": 10,
+      "repeat_every": "day"
+     }
+    }
+  ]
+}
